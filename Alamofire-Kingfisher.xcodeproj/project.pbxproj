@@ -14,6 +14,14 @@
 		C3389B131CDAE27E00539009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3389B111CDAE27E00539009 /* LaunchScreen.storyboard */; };
 		C3389B1E1CDAE27E00539009 /* Alamofire_KingfisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3389B1D1CDAE27E00539009 /* Alamofire_KingfisherTests.swift */; };
 		C3389B291CDAE27E00539009 /* Alamofire_KingfisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3389B281CDAE27E00539009 /* Alamofire_KingfisherUITests.swift */; };
+		C3389BD01CDB038500539009 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C3389BCE1CDB038500539009 /* MBProgressHUD.h */; };
+		C3389BD11CDB038500539009 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C3389BCF1CDB038500539009 /* MBProgressHUD.m */; };
+		C3389BD71CDB27BD00539009 /* WXTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3389BD51CDB27BD00539009 /* WXTableViewCell.swift */; };
+		C3389BD81CDB27BD00539009 /* WXTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3389BD61CDB27BD00539009 /* WXTableViewCell.xib */; };
+		C3389BDA1CDB2BBA00539009 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3389BD91CDB2BBA00539009 /* DataModel.swift */; };
+		C3389BDD1CDB461700539009 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3389BDB1CDB461700539009 /* DetailViewController.swift */; };
+		C3389BDE1CDB461700539009 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3389BDC1CDB461700539009 /* DetailViewController.xib */; };
+		F708456D23272A828893AEF6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4638BACB907AA25C31C8F6D5 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		317943105550AE115B273651 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4638BACB907AA25C31C8F6D5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C78697F8DC670B97EA4B00F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C3389B051CDAE27E00539009 /* Alamofire-Kingfisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire-Kingfisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3389B081CDAE27E00539009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3389B0A1CDAE27E00539009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,14 @@
 		C3389B241CDAE27E00539009 /* Alamofire-KingfisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamofire-KingfisherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3389B281CDAE27E00539009 /* Alamofire_KingfisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire_KingfisherUITests.swift; sourceTree = "<group>"; };
 		C3389B2A1CDAE27E00539009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3389BCD1CDB038400539009 /* Alamofire-Kingfisher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alamofire-Kingfisher-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3389BCE1CDB038500539009 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C3389BCF1CDB038500539009 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C3389BD51CDB27BD00539009 /* WXTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXTableViewCell.swift; sourceTree = "<group>"; };
+		C3389BD61CDB27BD00539009 /* WXTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXTableViewCell.xib; sourceTree = "<group>"; };
+		C3389BD91CDB2BBA00539009 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C3389BDB1CDB461700539009 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C3389BDC1CDB461700539009 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F708456D23272A828893AEF6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBE55E048BC5132ED2BF9A65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4638BACB907AA25C31C8F6D5 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3389AFC1CDAE27E00539009 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				C3389B1C1CDAE27E00539009 /* Alamofire-KingfisherTests */,
 				C3389B271CDAE27E00539009 /* Alamofire-KingfisherUITests */,
 				C3389B061CDAE27E00539009 /* Products */,
+				ECC7C20FE206B64CA7C7B220 /* Pods */,
+				BBE55E048BC5132ED2BF9A65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,14 @@
 		C3389B071CDAE27E00539009 /* Alamofire-Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
+				C3389BC81CDB035600539009 /* MBProgressHUD */,
 				C3389B081CDAE27E00539009 /* AppDelegate.swift */,
 				C3389B0A1CDAE27E00539009 /* ViewController.swift */,
+				C3389BDB1CDB461700539009 /* DetailViewController.swift */,
+				C3389BDC1CDB461700539009 /* DetailViewController.xib */,
+				C3389BD51CDB27BD00539009 /* WXTableViewCell.swift */,
+				C3389BD61CDB27BD00539009 /* WXTableViewCell.xib */,
+				C3389BD91CDB2BBA00539009 /* DataModel.swift */,
 				C3389B0C1CDAE27E00539009 /* Main.storyboard */,
 				C3389B0F1CDAE27E00539009 /* Assets.xcassets */,
 				C3389B111CDAE27E00539009 /* LaunchScreen.storyboard */,
@@ -125,16 +161,50 @@
 			path = "Alamofire-KingfisherUITests";
 			sourceTree = "<group>";
 		};
+		C3389BC81CDB035600539009 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C3389BCE1CDB038500539009 /* MBProgressHUD.h */,
+				C3389BCF1CDB038500539009 /* MBProgressHUD.m */,
+				C3389BCD1CDB038400539009 /* Alamofire-Kingfisher-Bridging-Header.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		ECC7C20FE206B64CA7C7B220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C78697F8DC670B97EA4B00F /* Pods.debug.xcconfig */,
+				317943105550AE115B273651 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3389BBB1CDAEC5600539009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3389BD01CDB038500539009 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		C3389B041CDAE27E00539009 /* Alamofire-Kingfisher */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3389B2D1CDAE27E00539009 /* Build configuration list for PBXNativeTarget "Alamofire-Kingfisher" */;
 			buildPhases = (
+				FF2FF6A9866B9BA4478C97EB /* Check Pods Manifest.lock */,
 				C3389B011CDAE27E00539009 /* Sources */,
 				C3389B021CDAE27E00539009 /* Frameworks */,
 				C3389B031CDAE27E00539009 /* Resources */,
+				C3389BBB1CDAEC5600539009 /* Headers */,
+				00F098E8338587487E4EAD61 /* Embed Pods Frameworks */,
+				9148FCC8F555F94760B1910D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +304,8 @@
 			files = (
 				C3389B131CDAE27E00539009 /* LaunchScreen.storyboard in Resources */,
 				C3389B101CDAE27E00539009 /* Assets.xcassets in Resources */,
+				C3389BDE1CDB461700539009 /* DetailViewController.xib in Resources */,
+				C3389BD81CDB27BD00539009 /* WXTableViewCell.xib in Resources */,
 				C3389B0E1CDAE27E00539009 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +326,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00F098E8338587487E4EAD61 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9148FCC8F555F94760B1910D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2FF6A9866B9BA4478C97EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3389B011CDAE27E00539009 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3389BDA1CDB2BBA00539009 /* DataModel.swift in Sources */,
 				C3389B0B1CDAE27E00539009 /* ViewController.swift in Sources */,
+				C3389BD11CDB038500539009 /* MBProgressHUD.m in Sources */,
+				C3389BDD1CDB461700539009 /* DetailViewController.swift in Sources */,
+				C3389BD71CDB27BD00539009 /* WXTableViewCell.swift in Sources */,
 				C3389B091CDAE27E00539009 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,23 +526,46 @@
 		};
 		C3389B2E1CDAE27E00539009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C78697F8DC670B97EA4B00F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alamofire-Kingfisher/Alamofire",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Alamofire-Kingfisher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hgdq.Alamofire-Kingfisher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alamofire-Kingfisher/MBProgressHUD/Alamofire-Kingfisher-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C3389B2F1CDAE27E00539009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317943105550AE115B273651 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alamofire-Kingfisher/Alamofire",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Alamofire-Kingfisher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hgdq.Alamofire-Kingfisher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alamofire-Kingfisher/MBProgressHUD/Alamofire-Kingfisher-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +634,7 @@
 				C3389B2F1CDAE27E00539009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3389B301CDAE27E00539009 /* Build configuration list for PBXNativeTarget "Alamofire-KingfisherTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +643,7 @@
 				C3389B321CDAE27E00539009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3389B331CDAE27E00539009 /* Build configuration list for PBXNativeTarget "Alamofire-KingfisherUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +652,7 @@
 				C3389B351CDAE27E00539009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
