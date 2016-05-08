@@ -28,7 +28,12 @@ class WXTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-    
+    /**
+     给cell填充数据
+     
+     - parameter dataArray: 数据集合
+     - parameter indexPath: indexPath
+     */
     func fillCellWiftDataArray(dataArray :NSArray, indexPath: NSIndexPath){
         let model = dataArray[indexPath.row] as! DataModel
         
